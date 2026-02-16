@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import SearchBar from "../components/SearchBar";
 import Tabs from "../components/Tabs";
-import ResultGrid from "../components/resultGrid";
+import ResultGrid from "../components/ResultGrid";
 import Navbar from "../components/Navbar";
 const Home = () => {
   const { query } = useSelector((store) => store.search);
